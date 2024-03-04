@@ -28,6 +28,6 @@ print(df)
 df.loc[df['Name']=='Emma','Salary']=65000
 print("\nDataFrame with updating emma salary")
 print(df)
-df.drop('Experience',axis=1)
+a=df.drop('Experience',axis=1)
 print("\nDataFrame after deleting the column ")
-print(df)
+print(a)
